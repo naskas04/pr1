@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 100%; 
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+
+        tbody>tr:nth-child(odd) {
+            
+            background-color: lightgray;
+
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">№ по порядку</th>
+                <th colspan="2">Персональные данные</th>
+            </tr>
+            <tr>
+                <th>ФИО</th>
+                <th>Дата рождения</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> 
+                <td>Иванов Иван Иванович</td>
+                <td>01 января 2000</td>
+            </tr>
+            <tr>
+                <td>2</td> 
+                <td>Петров Петр Петрович</td>
+                <td>14 марта 1999</td>
+            </tr>  
+            <tr>
+                <td>3</td> 
+                <td>Александров Александр Александрович</td>
+                <td>22 июня 2010</td>
+            </tr>
+        </tbody>      
+    </table>
+</body>
+</html>
